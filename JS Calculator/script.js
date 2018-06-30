@@ -1,8 +1,6 @@
 
 let display = document.getElementById('inputView');
 let button = document.querySelectorAll('.button');
-// let displayValue = document.getElementById('inputView').value;
-// let buttonValue = button.value;
 
 display.focus();
 
