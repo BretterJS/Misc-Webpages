@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type='text/css' rel='stylesheet' href='style.css'>
+  <title>Js Calculator</title>
+</head>
+<body>
+
+  <div id='container'>
+
+    <div id='calculator'>
+
+    <div id='input'>
+      <h1 id='header'>Javascript Calculator</h1>
+      <input id='inputView' autofocus  onkeypress="return onlyNumberKeys(e)">
+    </div>
+
+    <div id='keypad'>
+          <input class="button" type="button" value="C" onclick='c()'>
+          <input class="button" type="button" value="<" onclick='back()'>
+          <input class="button" type="button" value="&#215" onclick='enter("*")'>
+          <input class="button" type="button" value="&#247" onclick='enter("/")'>
+          <input class="button" type="button" value="1" onclick='enter(1)'>
+          <input class="button" type="button" value="2" onclick='enter(2)'>
+          <input class="button" type="button" value="3" onclick='enter(3)'>
+          <input class="button" type="button" value="+" onclick='enter("+")'>
+          <input class="button" type="button" value="4" onclick='enter(4)'>
+          <input class="button" type="button" value="5" onclick='enter(5)'>
+          <input class="button" type="button" value="6" onclick='enter(6)'>
+          <input class="button" type="button" value="-" onclick='enter("-")'>
+          <input class="button" type="button" value="7" onclick='enter(7)'>
+          <input class="button" type="button" value="8" onclick='enter(8)'>
+          <input class="button" type="button" value="9" onclick='enter(9)'>
+          <input class="button" type="button" value="." onclick='enter(".")'>
+          <input class="button" id='zeroBtn' type="button" value="0" onclick='enter(0)'>
+          <input class="button" id='equalsBtn' type="button" value="=" onclick='equal()'>
+    </div>
+
+    </div>
+    
+
+  </div>
+
+  <script src='script.js'></script>
+  
+</body>
+</html>
