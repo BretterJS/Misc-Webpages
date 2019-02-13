@@ -71,4 +71,4 @@ function onlyNumberKeys(evt) {
   return true;
 }
 */
-// Need to make function or modify numberkeys function to allow operator buttons
+
